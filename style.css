@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1ca39d;
+  position: absolute;
+}
+body .top_btn {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  color: #1ca39d;
+  position: sticky;
+  top: 200px;
+}
+body .top_btn a {
+  font-size: 25px;
+  font-weight: 700;
+}
+/* nav decoration start */
+.container a span {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1ca39d;
+  font-family: "Protest Riot", sans-serif;
+}
+.container nav #mydropdown .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+}
+.container nav #mydropdown .navbar-nav .nav-item .active {
+  color: #1ca39d;
+}
+.container nav #mydropdown .navbar-nav .nav-item .nav-link:hover {
+  color: #1ca39d;
+}
+.container nav .nav-link button {
+  padding: 10px 30px;
+  border-style: none;
+  border-radius: 30px;
+  background-color: #1ca39d;
+}
+/* nav decoratin end */
+
+/* content start */
+.Second_container {
+  background-color: #1ca39d;
+  height: 530px;
+}
+.container-fluid {
+  position: relative;
+}
+.container-fluid .Left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid .content h4 {
+  font-family: "Signika Negative", sans-serif;
+  color: white;
+}
+.container-fluid .content h1 {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+.container-fluid .content button {
+  background-color: rgb(53, 45, 45);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border-style: none;
+}
+
+/* Class section start */
+#class .container .row h1 {
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+}
+
+#class .container .row .col-md-4 .card {
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+#class .container .row .col-md-4 .card:hover {
+  width: 102%;
+  box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Teacher section start */
+#teacher .container .row h1{
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+}
+#teacher .container .row .col-md-6 h2{
+  font-family: "Protest Riot", sans-serif;
+}
+#teacher .container .row .col-md-6 ul li span{
+  font-size: 20px;
+  font-family: "Signika Negative", sans-serif;
+}
+#teacher .container .row .col-md-6 img{
+  box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.5);
+}
